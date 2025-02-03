@@ -6,5 +6,6 @@ To use this converter :
 * Choose the resolution
 * Choose where you want yout image to be downloaded
 * And that's it ! 
+
  
-Nota bene : This will only work if you the texte is showed in a text editor where all symbols are the same length (for example Window's NotePad)
+Nota bene : This will only work if you the texte is showed in a text editor where all symbols are the same length (for example Windows' NotePad)

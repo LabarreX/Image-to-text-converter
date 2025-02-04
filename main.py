@@ -27,7 +27,10 @@ res = requests.get(url, stream = True)
 
 img = Image.open(res.raw)
 
-width = int(input("Maximal width of the output text (Adviced 120): "))
+try :
+    width = int(input("Maximal width of the output text (if empty, width will be 120): "))
+except :
+    width = 120
 
 if img.size[0] > img.size[1]:           #size : (width, height)
     img = img.resize((width,int(img.size[1]*(width/2)/img.size[0])))
